@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Phone_Number_valdation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(if(Phone != &apos;&apos;,
+NOT(OR(REGEX( Phone, &quot;^[0-9]{10}&quot;))),
+false
+),  BillingCountry  =&apos;India&apos;)</errorConditionFormula>
+    <errorMessage>Please Fill Correct Phone Number</errorMessage>
+</ValidationRule>

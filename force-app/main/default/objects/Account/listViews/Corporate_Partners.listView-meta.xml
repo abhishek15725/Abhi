@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Corporate_Partners</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Email__c</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>ACCOUNT_SOURCE</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.Corporate_Partner</value>
+    </filters>
+    <label>Corporate Partners</label>
+</ListView>
