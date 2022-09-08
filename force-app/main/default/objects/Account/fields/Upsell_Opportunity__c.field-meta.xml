@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Upsell_Opportunity__c</fullName>
+    <externalId>false</externalId>
+    <label>Upsell Opportunity</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Chemotherapy</fullName>
+                <default>false</default>
+                <label>Chemotherapy</label>
+            </value>
+            <value>
+                <fullName>Daycare</fullName>
+                <default>false</default>
+                <label>Daycare</label>
+            </value>
+            <value>
+                <fullName>Health Checks</fullName>
+                <default>false</default>
+                <label>Health Checks</label>
+            </value>
+            <value>
+                <fullName>Hematology and BMT</fullName>
+                <default>false</default>
+                <label>Hematology and BMT</label>
+            </value>
+            <value>
+                <fullName>InPatient</fullName>
+                <default>false</default>
+                <label>InPatient</label>
+            </value>
+            <value>
+                <fullName>Medical Oncology</fullName>
+                <default>false</default>
+                <label>Medical Oncology</label>
+            </value>
+            <value>
+                <fullName>Nuclear Medicine</fullName>
+                <default>false</default>
+                <label>Nuclear Medicine</label>
+            </value>
+            <value>
+                <fullName>OutPatient</fullName>
+                <default>false</default>
+                <label>OutPatient</label>
+            </value>
+            <value>
+                <fullName>Radiation Oncology</fullName>
+                <default>false</default>
+                <label>Radiation Oncology</label>
+            </value>
+            <value>
+                <fullName>Surgical Oncology</fullName>
+                <default>false</default>
+                <label>Surgical Oncology</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Integration_View</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>ACCOUNT_SOURCE</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <columns>Sent_to_HIS_flag__c</columns>
+    <columns>Sent_To_SAP_flag__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Integration View</label>
+</ListView>
