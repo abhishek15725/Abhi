@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Categories__c</fullName>
+    <externalId>false</externalId>
+    <label>Service Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Administrative Charges</fullName>
+                <default>false</default>
+                <label>Administrative Charges</label>
+            </value>
+            <value>
+                <fullName>Registration</fullName>
+                <default>false</default>
+                <label>Registration</label>
+            </value>
+            <value>
+                <fullName>Accommodation Charges</fullName>
+                <default>false</default>
+                <label>Accommodation Charges</label>
+            </value>
+            <value>
+                <fullName>Professional Service</fullName>
+                <default>false</default>
+                <label>Professional Service</label>
+            </value>
+            <value>
+                <fullName>Diagnostic Services</fullName>
+                <default>false</default>
+                <label>Diagnostic Services</label>
+            </value>
+            <value>
+                <fullName>Blood Bank Procedures</fullName>
+                <default>false</default>
+                <label>Blood Bank Procedures</label>
+            </value>
+            <value>
+                <fullName>Hospital Services</fullName>
+                <default>false</default>
+                <label>Hospital Services</label>
+            </value>
+            <value>
+                <fullName>Ward ICU Procedures</fullName>
+                <default>false</default>
+                <label>Ward ICU Procedures</label>
+            </value>
+            <value>
+                <fullName>Nursing Charges</fullName>
+                <default>false</default>
+                <label>Nursing Charges</label>
+            </value>
+            <value>
+                <fullName>Pharmacy &amp; Consumables</fullName>
+                <default>false</default>
+                <label>Pharmacy &amp; Consumables</label>
+            </value>
+            <value>
+                <fullName>Equipment</fullName>
+                <default>false</default>
+                <label>Equipment</label>
+            </value>
+            <value>
+                <fullName>Ward Pharmacy</fullName>
+                <default>false</default>
+                <label>Ward Pharmacy</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
